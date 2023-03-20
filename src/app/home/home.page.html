@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Provinces-app</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Provinces-app</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+  <ul>
+    <li [routerLink]="['/ulster']" routerDirection="forward">Ulster</li>
+    <li [routerLink]="['/munster']" routerDirection="forward">Munster</li>
+    <li [routerLink]="['/leinster']" routerDirection="forward">Leinster</li>
+    <li [routerLink]="['/connaught']" routerDirection="forward">Connaught</li>
+  </ul>
+  </div>
+</ion-content>
